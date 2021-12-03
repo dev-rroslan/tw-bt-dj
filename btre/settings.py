@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tailwind',
     'tailwindcss',
+    'django_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -63,8 +64,8 @@ ROOT_URLCONF = 'btre.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [Path.joinpath(BASE_DIR, 'bootstap'),
-                 Path.joinpath(BASE_DIR, 'tailwindcss') 
+        'DIRS': [Path.joinpath(BASE_DIR, 'bootstrap'),
+                 Path.joinpath(BASE_DIR, 'tailwindcss/templates') 
         ],
         'APP_DIRS': True,
         'OPTIONS': {

@@ -8,6 +8,7 @@ django = "*"
 django-tailwind = "*"
 django-environ = "*"
 psycopg2-binary = "*"
+django-bootstrap5 = "*"
 
 [dev-packages]
 

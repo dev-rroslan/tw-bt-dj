@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b10dfc17f5909e1e85a1e970a32d14f2841843d102328baef1bcd861683045d6"
+            "sha256": "bbf4aafd007d0daeca54fd545c896c77fd6691691bb9546c641ab3a3f9cc7ced"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,14 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==3.4.1"
+        },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:9a315ce70049920ea4572a4055bc4bd700c940521d36fc858205ad4fcde149bf",
+                "sha256:c23ad23c521d818955a4151a67d81580319d4bf548d3d49f4223ae041ff98891"
+            ],
+            "markers": "python_version >= '3.1'",
+            "version": "==4.10.0"
         },
         "binaryornot": {
             "hashes": [
@@ -85,6 +93,14 @@
             ],
             "index": "pypi",
             "version": "==3.2.9"
+        },
+        "django-bootstrap5": {
+            "hashes": [
+                "sha256:1a12f9bd008b90089aeb57322ea5190e87b4e396af22edf29f23a4ed5ef0e59d",
+                "sha256:cb7cbc1582e90718be7ba8e19cdafa47a5bbb102de9c7855b1a1299bae162c1d"
+            ],
+            "index": "pypi",
+            "version": "==21.1"
         },
         "django-environ": {
             "hashes": [
@@ -289,6 +305,14 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
+        "soupsieve": {
+            "hashes": [
+                "sha256:1a3cca2617c6b38c0343ed661b1fa5de5637f257d4fe22bd9f1338010a1efefb",
+                "sha256:b8d49b1cd4f037c7082a9683dfa1801aa2597fb11c3a1155b7a5b94829b4f1f9"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==2.3.1"
+        },
         "sqlparse": {
             "hashes": [
                 "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae",
@@ -309,7 +333,7 @@
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
                 "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
             "version": "==1.26.7"
         }
     },
